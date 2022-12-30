@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship!</title>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="./battleshipPhoto.png"
+        alt="A picture of a Battleship."
+        class="battleship-photo"
+      />
+      <div class="title">
+        <h1>Battleship</h1>
+      </div>
+    </div>
+
+    <div class="game-space">
+      <div class="comp-events"></div>
+      <div class="board player-board"></div>
+      <div class="board computer-board"></div>
+      <div class="player-events"></div>
+    </div>
+    <div class="button-container">
+      <button class="play" type="button">Play</button>
+    </div>
+    <div class="modal-clone">
+      <div id="myModal" class="modal">
+        <!-- The Modal -->
+        <div class="modal-content">
+          <!-- Modal content -->
+          <h2>Welcome to Battleship!</h2>
+          <div class="place-ship-instructions">
+            <h3>Please place your <u>Battleship.</u></h3>
+          </div>
+          <div class="game-space placement">
+            <div class="board placement-board"></div>
+          </div>
+          <div class="button-container rotate">
+            <button class="rotate-button" type="button">Rotate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
