@@ -3,7 +3,7 @@
 This was an early project of mine. Built with:
 - **Vanilla JavaScript**, **HTML**, and **CSS**
 - A **rule-based AI** opponent (surprisingly challenging!)
-- Configured with **Webpack**
+- Configured and bundled using **Webpack**
 
 Play it here: [Battleship Game](https://mattmchugh4.github.io/battleship/).
 
